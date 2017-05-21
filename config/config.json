@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "irfan",
+    "password": "123",
+    "database": "HomeAutomationSystem",
+    "host": "127.0.0.1",
+    "dialect": "mssql"
+  },
+  "test": {
+    "username": "irfan",
+    "password": "123",
+    "database": "HomeAutomationSystem",
+    "host": "127.0.0.1",
+    "dialect": "mssql"
+  },
+  "production": {
+    "username": "irfan",
+    "password": "123",
+    "database": "HomeAutomationSystem",
+    "host": "127.0.0.1",
+    "dialect": "mssql"
+  }
+}
