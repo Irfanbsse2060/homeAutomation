@@ -1,0 +1,20 @@
+{
+  "name": "homeautomation",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Irfan Ali <irfan.htc40@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Irfanbsse2060/homeAutomation",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

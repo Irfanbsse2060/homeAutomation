@@ -22,6 +22,14 @@ module.exports =  function(sequelize,datatypes){
         time:{
             type:datatypes.TIME,
             allowNull:false
+        },
+        total:{
+            type:datatypes.INTEGER,
+            allowNull:false
+        },
+        total_on:{
+            type:datatypes.INTEGER,
+            allowNull:false
         }
 
 

@@ -9,7 +9,8 @@ module.exports =  function(sequelize,datatypes){
 
         home_id:{
             type: datatypes.INTEGER,
-            primaryKey:true
+            primaryKey:true,
+            autoIncrement: true
         },
         name:{
             type:datatypes.STRING,
@@ -29,6 +30,12 @@ module.exports =  function(sequelize,datatypes){
         classMethods:{
             associate: function(models){
                 home.belongsTo(models.account,{
+
+                    foreignKey:{
+                        allowNull:false
+                    }
+                }),
+                home.belongsTo(models.mode,{
 
                     foreignKey:{
                         allowNull:false

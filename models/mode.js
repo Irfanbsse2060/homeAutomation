@@ -7,15 +7,11 @@ module.exports =  function(sequelize,datatypes){
 
     var mode = sequelize.define('mode',{
 
-        mode_id:{
+        id:{
             type: datatypes.INTEGER,
             primaryKey:true
         },
         name:{
-            type:datatypes.STRING,
-            allowNull:false
-        },
-        status:{
             type:datatypes.STRING,
             allowNull:false
         }

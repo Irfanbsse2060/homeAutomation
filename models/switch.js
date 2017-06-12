@@ -14,8 +14,12 @@ module.exports =  function(sequelize,datatypes){
             type: datatypes.INTEGER,
             primaryKey:true
         },
-        status:{
+        name:{
             type:datatypes.STRING,
+            allowNull:false
+        },
+        status:{
+            type:datatypes.INTEGER,
             allowNull:false
         }
 

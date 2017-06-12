@@ -1,0 +1,24 @@
+#login
+{
+    background: saddlebrown;
+    width:400px;
+    height:400px;
+    margin-top: 10%;
+}
+label
+{
+    margin:10px;
+    color:white;
+}
+input
+{
+    margin: 10px;
+}
+
+body
+{
+
+    background-image: url("/img/smarthome2.jpeg");
+
+
+}
